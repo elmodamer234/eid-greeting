@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>عيد أضحى مبارك</title>
   <style>
     body {
-      background: url('https://i.imgur.com/f9HMkYh.jpg') no-repeat center center fixed;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://i.imgur.com/Q7jTn3v.jpg'); /* خلفية العيد */
       background-size: cover;
-      font-family: 'Cairo', sans-serif;
+      background-position: center;
       color: white;
       text-align: center;
-      padding: 100px 20px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-shadow: 2px 2px 4px #000;
     }
-    .card {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 30px;
-      border-radius: 20px;
-      display: inline-block;
+
+    h1 {
+      font-size: 4em;
+      margin: 0.2em 0;
+    }
+
+    p {
+      font-size: 1.8em;
+      margin: 0.5em 0;
+    }
+
+    .signature {
+      margin-top: 2em;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      p {
+        font-size: 1.2em;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>🌙 عيد أضحى مبارك 🐑</h1>
-    <p>كل عام وأنتم بخير</p>
-    <p>مع تحياتي: [اسلام محمد]</p>
+  <h1>✨ عيد أضحى مبارك ✨</h1>
+  <p>كل عام وأنتم بخير</p>
+  <p>تقبل الله طاعاتكم وأعاد عليكم الأيام بالخير واليُمن والبركات</p>
+  <div class="signature">
+    مع تحياتي: <strong>إسلام محمد</strong>
   </div>
 </body>
 </html>
+
 
